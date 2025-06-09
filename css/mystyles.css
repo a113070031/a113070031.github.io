@@ -1,0 +1,13 @@
+section#about.resume-section{
+    background: url(../assets/img/IMG_3861.JPG);
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+div.subheading.mb-5{
+    color: #fff;
+}
+
+p.lead.mb-5{
+    color: #fff;
+}
