@@ -5,3 +5,35 @@ html {
 .card-text a{
     text-decoration: none;
 }
+
+section.imgcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+section.imgcontainer figure{
+    width: 230px;
+    margin: 0;
+    text-align: center;
+}
+
+section.imgcontainer img{
+    height: 200px;
+    border-radius: 100px;
+}
+
+section.imgcontainer figcaption{
+    margin-top: 8px;
+    font-size: 16px;
+}
+
+section.imgcontainer figure a{
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+section.imgcontainer figure a:hover{
+    text-decoration: none;
+}
