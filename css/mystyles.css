@@ -13,7 +13,7 @@ section.imgcontainer{
 }
 
 section.imgcontainer figure{
-    width: 230px;
+    width: 235px;
     margin: 0;
     text-align: center;
 }
@@ -32,6 +32,7 @@ section.imgcontainer figure a{
     display: inline-flex;
     align-items: center;
     gap: 6px;
+    font-weight: bold;
 }
 
 section.imgcontainer figure a:hover{
