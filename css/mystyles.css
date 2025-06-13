@@ -33,6 +33,7 @@ section.imgcontainer figure a{
     align-items: center;
     gap: 6px;
     font-weight: bold;
+    border-radius: 100px;
 }
 
 section.imgcontainer figure a:hover{
