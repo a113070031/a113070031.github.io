@@ -16,15 +16,17 @@ html {
 .carousel-wrapper {
   max-width: 600px;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .carousel-inner {
   height: 400px; /* 統一所有圖片顯示區域高度 */
-  position: relative;
+  width: 100%
 }
 
 .carousel-item.active{
     height: 400px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,13 +34,29 @@ html {
 }
 
 .carousel-item{
-    height: 400px;
+    height: 100%;
 }
 
 .carousel-item img{
     max-height: 100%;
     width: auto;
     object-fit: contain;
+}
+
+@media screen and (max-width: 768px) {
+  .carousel-inner {
+    height: auto;
+  }
+
+  .carousel-item {
+    height: auto;
+  }
+
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
 }
 
 .card-text a{
