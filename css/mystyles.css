@@ -43,22 +43,6 @@ html {
     object-fit: contain;
 }
 
-@media screen and (max-width: 768px) {
-  .carousel-inner {
-    height: auto;
-  }
-
-  .carousel-item {
-    height: auto;
-  }
-
-  .carousel-item img {
-    width: 100%;
-    height: auto;
-    object-fit: contain;
-  }
-}
-
 .card-text a{
     text-decoration: none;
 }
