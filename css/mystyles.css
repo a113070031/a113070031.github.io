@@ -13,6 +13,34 @@ html {
   background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
 }
 
+.carousel-wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.carousel-inner {
+  height: 400px; /* 統一所有圖片顯示區域高度 */
+  position: relative;
+}
+
+.carousel-item.active{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6B84A8;
+}
+
+.carousel-item{
+    height: 400px;
+}
+
+.carousel-item img{
+    max-height: 100%;
+    width: auto;
+    object-fit: contain;
+}
+
 .card-text a{
     text-decoration: none;
 }
